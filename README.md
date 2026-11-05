@@ -78,14 +78,15 @@ La primera ejecución descarga el modelo de embeddings (~90 MB). `ingesta.py` ej
 
 ### Resultados
 
-Completar con la salida de `python evaluate.py --comparar` tras ejecutar el pipeline:
+Salida real de `python evaluate.py --comparar` (índice en Pinecone Serverless, 7 vectores, 8 preguntas, k = 5):
 
 | Recuperador | Recall@5 | Precision@5 | Máx. Precision@5 |
 |---|---|---|---|
-| BM25 | _pendiente_ | _pendiente_ | 20 % |
-| Vectorial (Pinecone) | _pendiente_ | _pendiente_ | 20 % |
-| Híbrido | _pendiente_ | _pendiente_ | 20 % |
+| BM25 | 100 % | 20 % | 20 % |
+| Vectorial (Pinecone) | 100 % | 20 % | 20 % |
+| Híbrido | 100 % | 20 % | 20 % |
 
+Los tres recuperadores encuentran el documento correcto en las 8 preguntas, y la precisión alcanza el máximo posible del dataset. **Con 7 chunks en total y k = 5, la evaluación no distingue entre los métodos**: el top-5 abarca casi todo el corpus. Para ver la ventaja del recuperador híbrido hace falta un corpus más grande (decenas de documentos o varios chunks por documento) y preguntas más difíciles.
 ## Seguridad
 
 La API key se lee de `.env`, que está en `.gitignore`. Solo se sube `.env.example`.
