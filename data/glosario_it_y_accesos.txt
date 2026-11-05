@@ -1,0 +1,22 @@
+Glosario IT y Accesos - TechCorp
+
+2FA: autenticación de dos factores. Se exige en correo, repositorios y sistemas internos.
+
+MDM: perfil de gestión de dispositivos móviles (Mobile Device Management). Es obligatorio
+instalarlo antes de acceder a sistemas corporativos desde un dispositivo personal.
+
+BYOD: política de uso de dispositivos personales ("Bring Your Own Device"). Requiere MDM.
+
+VPN: red privada virtual. Todo acceso remoto a la red interna debe hacerse a través de
+la VPN corporativa GlobalConnect, con 2FA habilitado. La conexión se cierra
+automáticamente tras 12 horas de sesión.
+
+SSO: inicio de sesión único (Single Sign-On) mediante la cuenta corporativa de Okta.
+Permite acceder a correo, wiki y sistema de Recursos Humanos con un solo usuario.
+
+SLA: acuerdo de nivel de servicio. El área de Soporte Técnico Nivel 1 responde los
+tickets críticos en 1 hora y los tickets normales en 8 horas hábiles.
+
+Para solicitar altas de acceso a sistemas internos se debe abrir un ticket en el portal
+ServiceDesk indicando el sistema, el rol requerido y la aprobación del líder directo.
+Las bajas de acceso se ejecutan automáticamente el último día laboral del empleado.

@@ -1,0 +1,18 @@
+[
+  {"pregunta": "¿Cuántos días de vacaciones corresponden a un empleado con 6 años de antigüedad?",
+   "documento_id_esperado": "politica_vacaciones.txt"},
+  {"pregunta": "¿Cuántos días de trabajo remoto por semana tiene el esquema estándar de TechCorp?",
+   "documento_id_esperado": "politica_teletrabajo.txt"},
+  {"pregunta": "¿Cada cuánto deben renovarse las contraseñas corporativas?",
+   "documento_id_esperado": "politica_seguridad_informatica.txt"},
+  {"pregunta": "¿Cuánto dura el proceso de onboarding en TechCorp?",
+   "documento_id_esperado": "onboarding_nuevos_empleados.txt"},
+  {"pregunta": "¿Cuál es el tope diario de comidas en un viaje internacional?",
+   "documento_id_esperado": "politica_gastos_y_viaticos.txt"},
+  {"pregunta": "¿Cuántos días dura la licencia por paternidad?",
+   "documento_id_esperado": "beneficios_y_licencias.txt"},
+  {"pregunta": "¿Qué significa MDM?",
+   "documento_id_esperado": "glosario_it_y_accesos.txt"},
+  {"pregunta": "¿Cómo se llama la VPN corporativa?",
+   "documento_id_esperado": "glosario_it_y_accesos.txt"}
+]
